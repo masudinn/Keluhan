@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF"
+    tools:context=".TambahKeluhanActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tv11tambah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/rbold"
+            android:text="Nama Pelapor"
+            android:textColor="#6A93C6"
+            android:textSize="19sp"
+            app:layout_constraintEnd_toEndOf="@+id/judultambah"
+            app:layout_constraintHorizontal_bias="0.008"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/judultambah" />
+
+        <EditText
+            android:id="@+id/pelaportambah"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textColor="#4A4A4A"
+            android:fontFamily="@font/rmed"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/bg_field"
+            app:layout_constraintEnd_toEndOf="@+id/tv11tambah"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv11tambah" />
+
+        <TextView
+            android:id="@+id/tv1tambah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/rbold"
+            android:text="Lokasi Kejadian"
+            android:textColor="#6A93C6"
+            android:textSize="19sp"
+            app:layout_constraintEnd_toEndOf="@+id/pelaportambah"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pelaportambah" />
+
+        <TextView
+            android:id="@+id/tv10tambah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/rbold"
+            android:text="Judul Kejadian"
+            android:textColor="#6A93C6"
+            android:textSize="19sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.098"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/judultambah"
+            android:layout_width="match_parent"
+            android:textColor="#4A4A4A"
+            android:fontFamily="@font/rmed"
+            android:layout_height="35dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_field"
+            app:layout_constraintEnd_toEndOf="@+id/tv10tambah"
+            app:layout_constraintStart_toStartOf="@+id/tv10tambah"
+            app:layout_constraintTop_toBottomOf="@+id/tv10tambah" />
+
+        <EditText
+            android:id="@+id/lokasitambah"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textColor="#4A4A4A"
+            android:fontFamily="@font/rmed"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/bg_field"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv1tambah" />
+
+        <TextView
+            android:id="@+id/tv2tambah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/rbold"
+            android:text="Waktu Kejadian"
+            android:textColor="#6A93C6"
+            android:textSize="19sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lokasitambah" />
+
+        <EditText
+            android:id="@+id/waktukejadiantambah"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/rmed"
+            android:textColor="#4A4A4A"
+            android:background="@drawable/bg_field"
+            app:layout_constraintEnd_toEndOf="@+id/tv2tambah"
+            app:layout_constraintStart_toStartOf="@+id/tv2tambah"
+            app:layout_constraintTop_toBottomOf="@+id/tv2tambah" />
+
+        <TextView
+            android:id="@+id/tv3tambah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/rbold"
+            android:text="Isi Keluhan"
+            android:textColor="#6A93C6"
+            android:textSize="19sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/waktukejadiantambah" />
+
+        <EditText
+            android:id="@+id/isikejadiantambah"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/rmed"
+            android:textColor="#4A4A4A"
+            android:background="@drawable/bg_field"
+            app:layout_constraintEnd_toEndOf="@+id/tv3tambah"
+            app:layout_constraintStart_toStartOf="@+id/tv3tambah"
+            app:layout_constraintTop_toBottomOf="@+id/tv3tambah" />
+
+        <TextView
+            android:id="@+id/tv4tambah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/rbold"
+            android:text="Upload Vidio (opsional)"
+            android:textColor="#6A93C6"
+            android:textSize="19sp"
+            app:layout_constraintEnd_toEndOf="@+id/isikejadiantambah"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/isikejadiantambah" />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="30dp"
+            app:layout_constraintEnd_toEndOf="@+id/tv4tambah"
+            app:layout_constraintHorizontal_bias="0.118"
+            app:layout_constraintStart_toStartOf="@+id/tv4tambah"
+            app:layout_constraintTop_toBottomOf="@+id/tv4tambah" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_add_24"
+            app:backgroundTint="#6A93C6"
+            app:layout_constraintBottom_toBottomOf="@+id/videoView"
+            app:layout_constraintEnd_toEndOf="@+id/videoView"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="@+id/videoView"
+            app:layout_constraintTop_toTopOf="@+id/videoView"
+            app:layout_constraintVertical_bias="0.508" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/savekeluhan"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="36dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/bg_field"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="7dp"
+            app:cardElevation="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/videoView"
+            app:layout_constraintVertical_bias="1.0">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/rbold"
+                android:gravity="center"
+                android:text="Upload Keluhan"
+                android:textColor="#6A93C6"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="115dp"
+                tools:layout_editor_absoluteY="361dp" />
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

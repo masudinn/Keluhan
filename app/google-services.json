@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "968667756026",
+    "project_id": "keluhan-dc452",
+    "storage_bucket": "keluhan-dc452.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968667756026:android:fc2980e2dc0531c1936043",
+        "android_client_info": {
+          "package_name": "com.kp.keluhanpegawai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968667756026-833h3e3278url585425b1f4b0fmh6vj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kp.keluhanpegawai",
+            "certificate_hash": "db1aeedd43991e6d6d4e19641f8c5d61ead313cd"
+          }
+        },
+        {
+          "client_id": "968667756026-6964qa3j4dvo3dk0mtnmt9d3l2remrbs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACYDi8mISdz4IwSj8rFHqpG5Mh2m1QmGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968667756026-6964qa3j4dvo3dk0mtnmt9d3l2remrbs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
